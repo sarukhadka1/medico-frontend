@@ -1,0 +1,26 @@
+
+.btn-blue {
+    background-color: #587DBD; /* Blue color */
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.btn-blue:hover {
+    background-color: #587DBD; /* Darker blue */
+    color: white;
+}
+
+.btn-light-blue {
+    background-color: #587DBD; /* Light blue */
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.btn-light-blue:hover {
+    background-color: #587DBD; /* Deeper blue */
+    color: white;
+}

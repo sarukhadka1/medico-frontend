@@ -1,0 +1,108 @@
+/* General Footer Styles */
+.footer {
+  background-color: #003a91; /* Dark blue background */
+  color: white;
+  padding: 30px 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left Section */
+.footer-left {
+  max-width: 300px;
+}
+
+.footer-logo {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.footer-description {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+/* Middle Section */
+.footer-middle,
+.footer-right {
+  text-align: center; /* Aligns content to the center */
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Right Section */
+.footer-right .footer-contact {
+  font-size: 14px;
+  margin-bottom: 15px; /* Adds spacing between Contact Us and Follow Us On */
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center; /* Centers the icons */
+  gap: 15px; /* Adds spacing between icons */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Social Media Icons */
+.footer-social-icons li a {
+  color: #ffffff; /* Set the icon color to pure white */
+  font-size: 24px; /* Slightly increase the size */
+  text-decoration: none;
+  padding: 5px; /* Add padding around icons for better visibility */
+  background-color: transparent; /* Ensure no blending with background */
+  border-radius: 50%; /* Optional: Makes icons appear circular */
+  transition: transform 0.3s ease, color 0.3s ease; /* Add smooth hover effect */
+}
+
+.footer-social-icons li a:hover {
+  color: #ff7f50; /* Coral hover color for hover effect */
+  transform: scale(1.3); /* Make the icons larger on hover */
+  background-color: rgba(255, 255, 255, 0.2); /* Optional: Light hover background */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-left,
+  .footer-middle,
+  .footer-right {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+}

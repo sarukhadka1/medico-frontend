@@ -1,0 +1,75 @@
+/* Navbar Logo */
+.navbar-logo {
+  width: 100px;
+  height: 55px;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  color: #004AAD; /* Blue Color */
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #003A88; /* Darker Blue on Hover */
+  text-decoration: none;
+}
+
+/* Welcome Button */
+.btn-light {
+  background-color: white;
+  color: #004AAD;
+  border: 1px solid #004AAD;
+  font-size: 14px;
+  padding: 5px 15px;
+  border-radius: 25px;
+}
+
+.btn-light:hover {
+  background-color: #004AAD;
+  color: white;
+}
+
+/* Login/Register Buttons */
+.btn-link-blue {
+  color: #004AAD;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.btn-link-blue:hover {
+  color: #003A88;
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-toggler-icon {
+  background-color: #004AAD; /* Blue for Mobile Menu Toggle */
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  border: 1px solid #004AAD;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #004AAD;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #004AAD;
+  color: white;
+}

@@ -1,0 +1,58 @@
+.profile-container {
+    /* background: url("https://i.pinimg.com/736x/57/41/7c/57417caa1f60c1ebe8e7e4f61285f61e.jpg") no-repeat center center fixed; */
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card {
+    max-width: 800px;
+    width: 100%;
+    padding: 30px;
+    background: #f0f8ff; /* Light blue background */
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+    border: 2px solid #4A90E2; /* Blue border */
+}
+
+.profile-header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    color: #4A90E2; /* Blue text */
+}
+
+.profile-header img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-right: 25px;
+    border: 2px solid #4A90E2; /* Blue border around image */
+}
+
+.profile-row label {
+    flex: 1;
+    font-weight: bold;
+    color: #4A90E2; /* Blue text */
+}
+
+.profile-row p {
+    flex: 2;
+    margin: 0;
+    padding-left: 15px;
+    color: #003a91; /* Darker blue text */
+}
+
+.edit-profile-form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #4A90E2; /* Blue border */
+    border-radius: 10px;
+    margin-bottom: 12px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}

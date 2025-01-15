@@ -1,0 +1,107 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #f0f8ff; /* Light blue background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%; /* Adjust layout width */
+    max-width: 70%;
+    max-height: 80vh;
+    overflow-y: auto; /* Scrollable content for large reviews */
+    position: relative;
+    border: 2px solid #4A90E2; /* Blue border */
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.modal-header {
+    display: flex;
+    align-items: flex-start; /* Align image and content at the top */
+    gap: 20px; /* Space between the image and text */
+}
+
+.modal-image {
+    width: 300px; /* Increased width */
+    height: 300px; /* Increased height */
+    object-fit: cover; /* Ensures the image fills the area */
+    object-position: top; /* Focus on the top part of the image */
+    border-radius: 10px; /* Rounded corners for aesthetics */
+    border: 2px solid #4A90E2; /* Blue border for consistency */
+}
+
+.modal-info {
+    flex: 1; /* Allow text to take the remaining space */
+}
+
+.modal-info h2 {
+    margin-top: 15px; /* Move the name slightly down */
+    margin-bottom: 10px;
+    font-size: 24px; /* Larger font for emphasis */
+    font-weight: bold; /* Bold for better visibility */
+    color: #4A90E2; /* Blue color for the name */
+}
+
+.modal-info p {
+    margin: 5px 0;
+    font-size: 16px; /* Consistent font size for details */
+    color: #555; /* Muted color for less emphasis */
+}
+
+.average-rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.review-section {
+    margin-top: 20px;
+}
+
+.review-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+}
+
+.rating-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-blue {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* .btn-blue:hover {
+    background-color: #357ABD;
+} */
+
+.reviews-list .review-item {
+    background: #ffffff; /* White background for review items */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Rounded corners for reviews */
+}

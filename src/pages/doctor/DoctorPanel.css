@@ -1,0 +1,75 @@
+.doctor-panel-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+.doctor-panel-container h2 {
+    font-size: 2.5rem;
+    color: #003a91; /* Blue */
+    margin-bottom: 20px;
+}
+
+.doctor-panel-container p {
+    color: #003a91; /* Blue */
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+}
+
+.doctor-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.doctor-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+}
+
+.doctor-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.doctor-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #003a91; /* Blue */
+}
+
+.doctor-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #555;
+}
+
+.doctor-card .btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.doctor-card .btn-primary {
+    background-color: #003a91; /* Blue */
+    color: #fff;
+    border: none;
+}
+
+.doctor-card .btn-secondary {
+    background-color: #0056b3; /* Darker Blue */
+    color: #fff;
+    border: none;
+}

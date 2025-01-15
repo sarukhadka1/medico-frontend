@@ -1,0 +1,57 @@
+.plan-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.plan-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plan-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.plan-details {
+  flex-grow: 1;
+}
+
+.plan-doctor-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.plan-doctor-specialization {
+  margin: 5px 0;
+  color: #666;
+}
+
+.plan-doctor-fees {
+  color: #4A90E2; /* Blue */
+  font-weight: bold;
+}
+
+.plan-remove {
+  background: none;
+  border: none;
+  color: #4A90E2; /* Blue */
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.plan-remove:hover {
+  color: red;
+}
