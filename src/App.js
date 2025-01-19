@@ -50,12 +50,13 @@ function App() {
         <Route path='/doctors/:id' element={<DoctorCard />} />
         <Route path='/view_doctor/:id' element={<DoctorDescription />} />
         <Route path='/profile' element={<Profile />} />
-        <Route path='/forgot_password' element={<ForgotPassword />} />
+        <Route path='/forgot-password' element={<ForgotPassword />} />
         <Route path='/myplan' element={<MyPlan />} />
         <Route path='/contactus' element={<ViewContact />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/view/:id' element={<ViewDoctor />} />
         <Route path='/my_appointments' element={<UserAppointments />} />
+        
 
         {/* Admin Routes */}
         <Route element={<AdminRoutes />}>
