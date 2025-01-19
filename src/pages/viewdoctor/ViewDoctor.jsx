@@ -511,41 +511,41 @@ const ViewDoctor = () => {
   const css = `
     .view-doctor-container {
       max-width: 1000px;
-      margin: 60px auto; /* Increased margin for top and bottom */
-      padding: 30px; /* Increased padding for top and bottom */
+      margin: 60px auto;
+      padding: 60px;
       background-color: #f0f8ff; 
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
       display: flex;
-      gap: 20px;
+      gap: 30px;
       align-items: flex-start;
     }
 
     .doctor-image-container {
-      max-width: 300px; /* Increased size */
-      max-height: 300px; /* Increased size */
-      overflow: hidden; 
-      border-radius: 10px;
-      border: 3px solid #007bff; 
-      background-color: #ffffff; 
+      max-width: 400px;
+      max-height: 400px;
+      overflow: hidden;
+      border-radius: 15px;
+      border: 3px solid #007bff;
+      background-color: #ffffff;
     }
 
     .doctor-image-container img {
       width: 100%;
       height: 100%;
-      object-fit: cover; 
-      border-radius: 10px;
+      object-fit: cover;
+      border-radius: 15px;
     }
 
     .doctor-details {
-      margin-top: 20px;
+      flex: 1;
     }
 
     .doctor-details h2 {
-      font-size: 24px;
-      font-weight: 700;
+      font-size: 28px;
+      font-weight: bold;
       color: #333333;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
 
     .doctor-details p {
@@ -557,17 +557,17 @@ const ViewDoctor = () => {
     .doctor-description {
       font-size: 16px;
       color: #666666;
-      margin-top: 15px;
-      line-height: 1.5;
+      margin-top: 20px;
+      line-height: 1.6;
     }
 
     .btn-primary {
-      background-color: #007bff; 
+      background-color: #007bff;
       border: none;
       color: #ffffff;
       font-size: 16px;
       font-weight: bold;
-      padding: 10px 20px;
+      padding: 12px 25px;
       border-radius: 5px;
       cursor: pointer;
       text-align: center;
@@ -575,7 +575,57 @@ const ViewDoctor = () => {
     }
 
     .btn-primary:hover {
-      background-color: #0056b3; 
+      background-color: #0056b3;
+    }
+
+    /* Appointment Modal */
+    .modal-content {
+      background-color: #f0f8ff; /* Same theme as view-doctor card */
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .modal-header {
+      background-color: #cce7ff;
+      border-radius: 15px 15px 0 0;
+      padding: 10px;
+      border-bottom: 1px solid #007bff;
+    }
+
+    .modal-header h5 {
+      margin: 0;
+      color: #0056b3;
+    }
+
+    .modal-body {
+      padding: 20px;
+    }
+
+    .form-label {
+      font-size: 14px;
+      color: #0056b3;
+      margin-bottom: 5px;
+    }
+
+    .form-control {
+      border: 1px solid #007bff;
+      border-radius: 5px;
+      padding: 8px;
+      font-size: 14px;
+    }
+
+    .btn-primary {
+      background-color: #0056b3;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      transition: background-color 0.2s ease-in-out;
+    }
+
+    .btn-primary:hover {
+      background-color: #004999;
     }
   `;
 
@@ -703,5 +753,8 @@ const ViewDoctor = () => {
 };
 
 export default ViewDoctor;
+
+
+
 
 
