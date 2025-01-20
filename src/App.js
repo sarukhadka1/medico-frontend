@@ -31,6 +31,7 @@ import Contact from './pages/contactus/ContactUs';
 import ViewDoctor from './pages/viewdoctor/ViewDoctor';
 import UserAppointments from './pages/appoint/UserAppointment';
 import AppointmentList from './admin/appointment list/AppointmentList';
+import FAQs from './pages/faqs/Faqs';
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
         <Route path='/myplan' element={<MyPlan />} />
         <Route path='/contactus' element={<ViewContact />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/faqs' element={<FAQs />} />
         <Route path='/view/:id' element={<ViewDoctor />} />
         <Route path='/my_appointments' element={<UserAppointments />} />
         
