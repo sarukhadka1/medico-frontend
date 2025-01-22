@@ -24,23 +24,23 @@ const AdminNavbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/admin/dashboard" style={{ color: '#4A90E2' }}>Dashboard</Link>
+                <Link className="nav-link" aria-current="page" to="/admin/dashboard" style={{ color: '#004AAD' }}>Dashboard</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/contactus" style={{ color: '#4A90E2' }}>ViewContact</Link>
+                <Link className="nav-link" aria-current="page" to="/contactus" style={{ color: '#004AAD' }}>ViewContact</Link>
               </li>
               {/* <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/doctor" style={{ color: '#4A90E2' }}>Doctor</Link>
               </li> */}
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/admin/appointmentList" style={{ color: '#4A90E2' }}>Appointments</Link>
+                <Link className="nav-link active" aria-current="page" to="/admin/appointmentList" style={{ color: '#004AAD' }}>Appointments</Link>
               </li>
             </ul>
             <form className="d-flex" role="search">
               {
                 user ? (
                   <div className="dropdown">
-                    <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ backgroundColor: '#4A90E2', borderColor: '#4A90E2' }}>
+                    <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ backgroundColor: '#004AAD', borderColor: '#4A90E2' }}>
                       Welcome, {user.firstName}!
                     </button>
                     <ul className="dropdown-menu">
