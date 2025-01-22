@@ -6,7 +6,7 @@
 }
 
 .appointment-list-header {
-    color: #4A90E2; /* Blue */
+    color: #004AAD; /* Blue */
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 20px;
@@ -34,7 +34,7 @@
 }
 
 .appointment-styled-table thead {
-    background-color: #4A90E2; /* Blue */
+    background-color: #004AAD; /* Blue */
     color: #fff;
 }
 
