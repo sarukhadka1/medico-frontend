@@ -77,7 +77,7 @@ const Register = () => {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'flex-end',
-      width: '350px',
+      width: '300px',
       marginRight: '15px',
       marginTop: '-60px',
     },
