@@ -191,8 +191,8 @@ const AppointmentList = () => {
                           className="btn btn-success"
                           onClick={() => handleApprove(appointment._id)}
                           style={{
-                            backgroundColor: '#4A90E2',
-                            borderColor: '#4A90E2',
+                            backgroundColor: '#004AAD',
+                            borderColor: '#004AAD',
                             color: '#fff',
                             padding: '10px 20px',
                             borderRadius: '25px',
