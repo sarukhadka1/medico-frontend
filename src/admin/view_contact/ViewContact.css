@@ -6,7 +6,7 @@
 }
 
 .view-contact-header {
-    color: #4A90E2; /* Blue */
+    color: #004AAD; /* Blue */
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 20px;
@@ -33,7 +33,7 @@
 }
 
 .view-styled-table thead {
-    background-color: #4A90E2; /* Blue */
+    background-color: #004AAD; /* Blue */
     color: #fff;
 }
 
@@ -51,7 +51,7 @@
     display: block;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: #4A90E2; /* Blue */
+    background-color: #004AAD; /* Blue */
     color: #fff;
     border: none;
     border-radius: 25px;
@@ -62,7 +62,7 @@
 }
 
 .view-back-button:hover {
-    background-color: #3a78c1; /* Slightly darker blue */
+    background-color: #004AAD; /* Slightly darker blue */
 }
 
 .toast-container {
