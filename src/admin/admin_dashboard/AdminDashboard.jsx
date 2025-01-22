@@ -129,7 +129,7 @@ const AdminDashboard = () => {
                     .dashboard-title {
                         font-size: 24px;
                         font-weight: bold;
-                        color: #6a0dad;
+                        color: #004AAD;
                     }
 
                     .dashboard-stats {
@@ -237,10 +237,10 @@ const AdminDashboard = () => {
 
             <div className="table-container">
                 <h5>
-                    Doctors at <span style={{ color: 'blue' }}>Medico</span>
+                    Doctors at <span style={{ color: '#004AAD' }}>Medico</span>
                 </h5>
                 <table className="table mt-2">
-                    <thead className="table-dark" style={{ backgroundColor: 'blue' }}>
+                    <thead className="table-dark" style={{ backgroundColor: '#004AAD' }}>
                         <tr>
                             <th>Doctor Image</th>
                             <th>Doctor Name</th>
@@ -256,8 +256,8 @@ const AdminDashboard = () => {
                                 <td>
                                     {singleDoctor.doctorImage ? (
                                         <img
-                                            width="40px"
-                                            height="40px"
+                                            width="30px"
+                                            height="30px"
                                             src={`http://localhost:5000/doctors/${singleDoctor.doctorImage}`}
                                             alt="Doctor"
                                         />
@@ -283,8 +283,8 @@ const AdminDashboard = () => {
                                         to={`/admin/update/${singleDoctor._id}`}
                                         className="btn btn-primary"
                                         style={{
-                                            backgroundColor: 'blue',
-                                            borderColor: 'blue',
+                                            backgroundColor: '#004AAD',
+                                            borderColor: '#004AAD',
                                         }}
                                     >
                                         Edit
