@@ -61,6 +61,7 @@
 // export default LandingPage;
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
     return (
