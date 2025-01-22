@@ -210,7 +210,7 @@ const AdminDashboard = () => {
                     className="btn btn-secondary"
                     data-bs-toggle="modal"
                     data-bs-target="#postDoctorModal"
-                    style={{ backgroundColor: 'blue', borderColor: 'blue' }}
+                    style={{ backgroundColor: '#004AAD', borderColor: '#004AAD' }}
                 >
                     Add Doctor
                 </button>
@@ -427,8 +427,8 @@ const AdminDashboard = () => {
                                         type="submit"
                                         className="btn btn-secondary"
                                         style={{
-                                            backgroundColor: 'blue',
-                                            borderColor: 'blue',
+                                            backgroundColor: '#004AAD',
+                                            borderColor: '#004AAD',
                                             marginTop: '20px',
                                             width: '100%',
                                         }}
